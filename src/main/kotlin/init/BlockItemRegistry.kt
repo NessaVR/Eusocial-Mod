@@ -1,9 +1,9 @@
 @file:Suppress("unused", "HasPlatformType")
 
-package com.pleahmacaka.examplemod.init
+package com.nessavr.vanessamod.init
 
-import com.pleahmacaka.examplemod.MODID
-import com.pleahmacaka.examplemod.blocks.ExampleBlock
+import com.nessavr.vanessamod.MODID
+import com.nessavr.vanessamod.blocks.VanessaBlock
 import net.minecraft.world.item.BlockItem
 import net.minecraft.world.item.Item
 import net.minecraftforge.eventbus.api.IEventBus
@@ -22,6 +22,6 @@ object BlockItemRegistry {
     // ==================== //
 
     val EXAMPLE_BLOCK: BlockItem
-            by BLOCK_ITEMS.registerObject("example_block") { BlockItem(ExampleBlock, Item.Properties()) }
+            by BLOCK_ITEMS.registerObject("example_block") { BlockItem(VanessaBlock, Item.Properties()) }
 
 }

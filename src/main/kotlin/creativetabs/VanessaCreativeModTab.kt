@@ -1,8 +1,8 @@
-package com.pleahmacaka.examplemod.creativetabs
+package com.nessavr.vanessamod.creativetabs
 
-import com.pleahmacaka.examplemod.MODID
-import com.pleahmacaka.examplemod.blocks.ExampleBlock
-import com.pleahmacaka.examplemod.items.SadObsidianMaker
+import com.nessavr.vanessamod.MODID
+import com.nessavr.vanessamod.blocks.VanessaBlock
+import com.nessavr.vanessamod.items.SadObsidianMaker
 import net.minecraft.resources.ResourceLocation
 import net.minecraft.world.item.ItemStack
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent
@@ -11,12 +11,12 @@ import net.minecraftforge.fml.common.Mod
 
 @Suppress("unused")
 @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
-object ExampleCreativeModTab {
+object VanessaCreativeModTab {
 
     @SubscribeEvent
     fun buildContents(event: BuildCreativeModeTabContentsEvent) {
-        if (event.tabKey == ResourceLocation(MODID, "example")) {
-            event.accept(ItemStack(ExampleBlock))
+        if (event.tabKey == ResourceLocation(MODID, "vanessa")) {
+            event.accept(ItemStack(VanessaBlock))
             event.accept(ItemStack(SadObsidianMaker))
         }
     }

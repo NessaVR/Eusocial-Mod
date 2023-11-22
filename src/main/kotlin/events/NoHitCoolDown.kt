@@ -1,6 +1,6 @@
-package com.pleahmacaka.examplemod.events
+package com.nessavr.vanessamod.events
 
-import com.pleahmacaka.examplemod.MODID
+import com.nessavr.vanessamod.MODID
 import net.minecraftforge.event.entity.living.LivingAttackEvent
 import net.minecraftforge.eventbus.api.SubscribeEvent
 import net.minecraftforge.fml.common.Mod

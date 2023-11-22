@@ -3,23 +3,23 @@ loaderVersion = "[4,)"
 license = "MIT"
 
 [[mods]]
-modId = "examplemod"
+modId = "vanessamod"
 version = "${file.jarVersion}"
-displayName = "examplemod"
-logoFile = "examplemod.png"
-authors = "PleahMaCaka"
+displayName = "vanessamod"
+logoFile = "vanessamod.png"
+authors = "NessaVR"
 description = '''
-Forge Template with ParchmentMC, KotlinForForge and Mixin
+Vanessa's Mod, it does nothing but looks good!
 '''
 
-[[dependencies.examplemod]]
+[[dependencies.vanessamod]]
 modId = "forge"
 mandatory = true
 versionRange = "[46,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.vanessamod]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20,1.21)"

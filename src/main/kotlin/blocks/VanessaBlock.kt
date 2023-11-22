@@ -1,9 +1,9 @@
-package com.pleahmacaka.examplemod.blocks
+package com.nessavr.vanessamod.blocks
 
 
 import net.minecraft.world.level.block.Block
 
-object ExampleBlock : Block(
+object VanessaBlock : Block(
     Properties
         .of()
         .instabreak()

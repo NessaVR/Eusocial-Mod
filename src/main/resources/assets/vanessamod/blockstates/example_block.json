@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "vanessamod:block/example_block"
+    }
+  }
+}

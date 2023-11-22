@@ -29,7 +29,7 @@ plugins {
 group = "com.pleahmacaka"
 version = "1.20-0.1.0"
 
-val modid = "examplemod"
+val modid = "vanessamod"
 val vendor = "pleahmacaka"
 
 val minecraftVersion = "1.20.2"
@@ -112,8 +112,8 @@ val Project.mixin: MixinExtension
     get() = extensions.getByType()
 
 mixin.run {
-    add(sourceSets.main.get(), "examplemod.mixins.refmap.json")
-    config("examplemod.mixins.json")
+    add(sourceSets.main.get(), "vanessamod.mixins.refmap.json")
+    config("vanessamod.mixins.json")
     val debug = this.debug as DynamicProperties
     debug.setProperty("verbose", true)
     debug.setProperty("export", true)
